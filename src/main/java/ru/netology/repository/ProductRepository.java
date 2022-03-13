@@ -1,4 +1,6 @@
-package ru.netology;
+package ru.netology.repository;
+
+import ru.netology.domain.Product;
 
 public class ProductRepository {  //Для этого репозиторий будет хранить у себя поле с типом Product[] (массив товаров)
     private Product[] items = new Product[0];
